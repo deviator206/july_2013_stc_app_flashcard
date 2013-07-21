@@ -2158,3 +2158,53 @@ top: 75px;
     opacity: .9;
     color: black;
 }
+
+
+.startup_light_box
+{
+  
+}
+#s_u_light_box_cross_btn
+{
+	width: 80px;
+	height: 55px;
+	position: absolute;
+	margin-left: 937px;
+	margin-top: 5px;
+		
+}
+
+#s_u_light_box_bg
+{
+	height: 595px;
+	position: absolute;
+	background-color: white;
+	opacity: 0.6;
+	width: 878px;
+}
+
+
+#s_u_light_box_content
+{
+	width: 1100px;
+	height: 550px;
+	position: absolute;
+	overflow: hidden;
+	margin-top: 30px;	
+}
+
+#onlyglobalPopup
+{
+	width: 1200px;
+height: 660px;
+background-color: white;
+
+margin: 0 auto;
+	
+}
+
+
+.not-visible
+{
+	display:none;
+}

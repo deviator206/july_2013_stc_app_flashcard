@@ -38,7 +38,7 @@
 			var arrScriptTags = new Array('css/style_flashcard_stc.css', 'js/lib/jquery-1.7.2.min.js', 'js/app-flashcard.js');
 
 			var arrScriptIndex = 0;
-			var arrDivNames = new Array('loading_script_tags', 'overlayScreen_ForQuestion','passwordScreen', 'loadingScreen', 'splashScreen', 'menuScreen', 'howtoplayScreen', 'carouselScreen', 'grey_bottom', 'gameplayScreen', 'correctanswerScreen', 'wronganswerScreen', 'winnerScreen')
+			var arrDivNames = new Array('loading_script_tags', 'onlyglobalPopup','overlayScreen_ForQuestion','passwordScreen', 'loadingScreen', 'splashScreen', 'menuScreen', 'howtoplayScreen', 'carouselScreen', 'grey_bottom', 'gameplayScreen', 'correctanswerScreen', 'wronganswerScreen', 'winnerScreen')
 			function makeAllInvisible() {
 				for (var i = 0; i < arrDivNames.length; i++)
 					document.getElementById(arrDivNames[i]).style.display = 'none'
@@ -140,7 +140,10 @@
 
 		</script>
 		<div id='viewporter' >
-			<div class="outerDiv">
+			<div id="onlyglobalPopup" class="not-visible">
+				
+			</div>
+			<div id="outerMostDiv" class="outerDiv">
 				<div id="loading_script_tags" style="width:905px;
 				height:600px;
 				margin:0 auto;
